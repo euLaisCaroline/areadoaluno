@@ -1,6 +1,11 @@
 <template>
   <div class="area">
     <div class="area__header content">
+      <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="assets/imagens/favicon/apple-icon-57x57.png"
+      />
       <img class="area__header__img" src="@/assets/logo-negativo.svg" />
       <router-link to="/" class="area__header__sair">Sair</router-link>
     </div>
